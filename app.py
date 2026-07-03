@@ -9,8 +9,8 @@ def home():
 def hello():
     # INTENTIONAL BUG, fix it 
     # 'greeting' is misspelled below as 'greetng' to throw a NameError
-    greetng = "You did it! Here is a chocolate shower for you!" 
-    return f"<h1>{greetng}</h1>"
+    greeting = "You did it! Here is a chocolate shower for you!" 
+    return f"<h1>{greeting}</h1>"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
